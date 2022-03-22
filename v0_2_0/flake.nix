@@ -9,7 +9,7 @@
   
   inputs.src-snip-v0_2_0.flake = false;
   inputs.src-snip-v0_2_0.owner = "genotrance";
-  inputs.src-snip-v0_2_0.ref   = "refs/tags/v0.2.0";
+  inputs.src-snip-v0_2_0.ref   = "v0_2_0";
   inputs.src-snip-v0_2_0.repo  = "snip";
   inputs.src-snip-v0_2_0.type  = "github";
   
