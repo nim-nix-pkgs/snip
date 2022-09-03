@@ -1,0 +1,28 @@
+Features
+- Nimsuggest integration
+- Command line arguments to generated executable
+- Command line arguments to compiler
+- Nim flags from CLI into nim.cfg
+- User defined color scheme
+- Highlight multi-char comments - //
+- Highlight multi-line comments - /* */
+- Highlight functions, variables
+- Handle horizontal scroll
+- OS specific key map due to variability in key detection/availability
+- Handle white background
+- Full screen output window with scroll
+
+Improvements
+- Fix highlighting loss if line too long
+- Last line refresh issue if sniptest 3
+- Clean up key sort order - affects maps
+- Clean up keymap - load into table at compile time instead of string
+- Add TO_TAB action to generate file with tabs
+- Undo broken
+- Highlighting colors from table
+- Remove F5 - Run once auto-compile is stable
+- Set nim.cfg based on loaded file path
+- Add error detection strings for js
+- Replace tables with sharedtables where appropriate
+- Compile file if specified instead of in temp
+- Truncate filename if it doesn't fit in lcol()
